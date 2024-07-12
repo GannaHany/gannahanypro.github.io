@@ -1,0 +1,72 @@
+body{
+    background-image: url('IMGS/BG.jpg');
+    background-size: contain;
+}
+.calc{
+    animation: moveDown 0.7s ease-in-out forwards;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 40px auto;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    padding: 20px; 
+    height: 510px;
+    background:linear-gradient(pink,rgb(231, 159, 171));
+    background-image: url('IMGS/calcbg.jpg');
+    background-size: contain; 
+    box-shadow: 0 10px 20px 0 rgba(250, 1, 138, 0.705);
+    
+    
+    
+}
+.calc:hover{
+    animation-name: moveDown;
+    
+      
+}
+
+@keyframes moveDown{
+    0%{ transform: translateY(0);}
+    100%{ transform: translateY(40px); }
+}
+#display{
+    height: 60px;
+    width: 260px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color:rgb(179, 21, 100);
+    background-color: rgba(245, 134, 190, 0.705);
+    font-size: 32px;
+    font-weight: bolder;
+}
+button{
+
+    margin: 12px;
+    width: 60px;
+    height: 50px;
+    background-color: pink;
+    border-color:rgb(179, 21, 100);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    transition: 0.4s;
+
+
+
+}
+button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+}
+h1{
+    text-align: center;
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(211, 9, 103);
+  
+}
